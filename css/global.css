@@ -1,0 +1,17 @@
+:root{
+    --green-color:#35CD8C;
+    --red-color:#FE043C;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    font-style: normal;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
