@@ -219,7 +219,7 @@ nav ul li a {
 
 } 
 
-@media only screen and (max-width: 992px) {
+@media (min-width: 740px) and (max-width: 1023px)  {
     .wrapper{
         max-width: 1195px;
         margin: 0 auto;
@@ -604,10 +604,15 @@ nav ul li a {
     text-transform: capitalize;
     color: #2E266F;
 }
-.service__item--free h3 div {
+.service__item--free .line-content {
+    display: flex;
+    align-items: center;
+}
+.service__item--free .tmp {
     width: 84px;
     height: 3px;
     background-color: var(--green-color);
+    margin-right: 20px;
 }
 .service__item--free p {
     font-size: 14px;
